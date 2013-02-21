@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAA1155416D5E92800615973 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA1155216D5E92800615973 /* myViewController.m */; };
+		CAA1155516D5E92800615973 /* myViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA1155316D5E92800615973 /* myViewController.xib */; };
+		CAA1155816D5FE1F00615973 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA1155716D5FE1F00615973 /* sun.png */; };
+		CAA1156016D6029D00615973 /* sdfasdfaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA1155E16D6029D00615973 /* sdfasdfaViewController.m */; };
+		CAA1156116D6029D00615973 /* sdfasdfaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA1155F16D6029D00615973 /* sdfasdfaViewController.xib */; };
 		CF80555B1665B00600EEF30B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80555A1665B00600EEF30B /* UIKit.framework */; };
 		CF80555D1665B00600EEF30B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80555C1665B00600EEF30B /* Foundation.framework */; };
 		CF80555F1665B00600EEF30B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80555E1665B00600EEF30B /* CoreGraphics.framework */; };
@@ -18,9 +23,27 @@
 		CF8055711665B00600EEF30B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8055701665B00600EEF30B /* Default-568h@2x.png */; };
 		CF8055741665B00600EEF30B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8055721665B00600EEF30B /* MainStoryboard.storyboard */; };
 		CF8055771665B00600EEF30B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8055761665B00600EEF30B /* ViewController.m */; };
+		CF8055801665B13B00EEF30B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80557F1665B13B00EEF30B /* libsqlite3.dylib */; };
+		CFB7723D1665D29900965E55 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB772351665D29900965E55 /* blackArrow.png */; };
+		CFB7723E1665D29900965E55 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB772361665D29900965E55 /* blackArrow@2x.png */; };
+		CFB7723F1665D29900965E55 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB772371665D29900965E55 /* blueArrow.png */; };
+		CFB772401665D29900965E55 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB772381665D29900965E55 /* blueArrow@2x.png */; };
+		CFB772411665D29900965E55 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB772391665D29900965E55 /* grayArrow.png */; };
+		CFB772421665D29900965E55 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB7723A1665D29900965E55 /* grayArrow@2x.png */; };
+		CFB772431665D29900965E55 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB7723B1665D29900965E55 /* whiteArrow.png */; };
+		CFB772441665D29900965E55 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB7723C1665D29900965E55 /* whiteArrow@2x.png */; };
+		CFB772471665D2F800965E55 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB772461665D2F800965E55 /* EGORefreshTableHeaderView.m */; };
+		CFB772491665D31200965E55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB772481665D31200965E55 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAA1155116D5E92800615973 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		CAA1155216D5E92800615973 /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
+		CAA1155316D5E92800615973 /* myViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myViewController.xib; sourceTree = "<group>"; };
+		CAA1155716D5FE1F00615973 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		CAA1155D16D6029D00615973 /* sdfasdfaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdfasdfaViewController.h; sourceTree = "<group>"; };
+		CAA1155E16D6029D00615973 /* sdfasdfaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdfasdfaViewController.m; sourceTree = "<group>"; };
+		CAA1155F16D6029D00615973 /* sdfasdfaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sdfasdfaViewController.xib; sourceTree = "<group>"; };
 		CF8055561665B00600EEF30B /* sqlitedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlitedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF80555A1665B00600EEF30B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF80555C1665B00600EEF30B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +60,18 @@
 		CF8055731665B00600EEF30B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CF8055751665B00600EEF30B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CF8055761665B00600EEF30B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF80557F1665B13B00EEF30B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CFB772351665D29900965E55 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		CFB772361665D29900965E55 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		CFB772371665D29900965E55 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		CFB772381665D29900965E55 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		CFB772391665D29900965E55 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		CFB7723A1665D29900965E55 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		CFB7723B1665D29900965E55 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		CFB7723C1665D29900965E55 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		CFB772451665D2F800965E55 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		CFB772461665D2F800965E55 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		CFB772481665D31200965E55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB772491665D31200965E55 /* QuartzCore.framework in Frameworks */,
+				CF8055801665B13B00EEF30B /* libsqlite3.dylib in Frameworks */,
 				CF80555B1665B00600EEF30B /* UIKit.framework in Frameworks */,
 				CF80555D1665B00600EEF30B /* Foundation.framework in Frameworks */,
 				CF80555F1665B00600EEF30B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +93,25 @@
 		CF80554B1665B00600EEF30B = {
 			isa = PBXGroup;
 			children = (
+				CAA1155D16D6029D00615973 /* sdfasdfaViewController.h */,
+				CAA1155E16D6029D00615973 /* sdfasdfaViewController.m */,
+				CAA1155F16D6029D00615973 /* sdfasdfaViewController.xib */,
+				CAA1155116D5E92800615973 /* myViewController.h */,
+				CAA1155216D5E92800615973 /* myViewController.m */,
+				CAA1155716D5FE1F00615973 /* sun.png */,
+				CAA1155316D5E92800615973 /* myViewController.xib */,
+				CFB772481665D31200965E55 /* QuartzCore.framework */,
+				CFB772451665D2F800965E55 /* EGORefreshTableHeaderView.h */,
+				CFB772461665D2F800965E55 /* EGORefreshTableHeaderView.m */,
+				CFB772351665D29900965E55 /* blackArrow.png */,
+				CFB772361665D29900965E55 /* blackArrow@2x.png */,
+				CFB772371665D29900965E55 /* blueArrow.png */,
+				CFB772381665D29900965E55 /* blueArrow@2x.png */,
+				CFB772391665D29900965E55 /* grayArrow.png */,
+				CFB7723A1665D29900965E55 /* grayArrow@2x.png */,
+				CFB7723B1665D29900965E55 /* whiteArrow.png */,
+				CFB7723C1665D29900965E55 /* whiteArrow@2x.png */,
+				CF80557F1665B13B00EEF30B /* libsqlite3.dylib */,
 				CF8055601665B00600EEF30B /* sqlitedemo */,
 				CF8055591665B00600EEF30B /* Frameworks */,
 				CF8055571665B00600EEF30B /* Products */,
@@ -163,6 +219,17 @@
 				CF80556F1665B00600EEF30B /* Default@2x.png in Resources */,
 				CF8055711665B00600EEF30B /* Default-568h@2x.png in Resources */,
 				CF8055741665B00600EEF30B /* MainStoryboard.storyboard in Resources */,
+				CFB7723D1665D29900965E55 /* blackArrow.png in Resources */,
+				CFB7723E1665D29900965E55 /* blackArrow@2x.png in Resources */,
+				CFB7723F1665D29900965E55 /* blueArrow.png in Resources */,
+				CFB772401665D29900965E55 /* blueArrow@2x.png in Resources */,
+				CFB772411665D29900965E55 /* grayArrow.png in Resources */,
+				CFB772421665D29900965E55 /* grayArrow@2x.png in Resources */,
+				CFB772431665D29900965E55 /* whiteArrow.png in Resources */,
+				CFB772441665D29900965E55 /* whiteArrow@2x.png in Resources */,
+				CAA1155516D5E92800615973 /* myViewController.xib in Resources */,
+				CAA1155816D5FE1F00615973 /* sun.png in Resources */,
+				CAA1156116D6029D00615973 /* sdfasdfaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +243,9 @@
 				CF8055671665B00600EEF30B /* main.m in Sources */,
 				CF80556B1665B00600EEF30B /* AppDelegate.m in Sources */,
 				CF8055771665B00600EEF30B /* ViewController.m in Sources */,
+				CFB772471665D2F800965E55 /* EGORefreshTableHeaderView.m in Sources */,
+				CAA1155416D5E92800615973 /* myViewController.m in Sources */,
+				CAA1156016D6029D00615973 /* sdfasdfaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +325,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sqlitedemo/sqlitedemo-Prefix.pch";
 				INFOPLIST_FILE = "sqlitedemo/sqlitedemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -266,6 +337,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sqlitedemo/sqlitedemo-Prefix.pch";
 				INFOPLIST_FILE = "sqlitedemo/sqlitedemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,6 +362,7 @@
 				CF80557C1665B00600EEF30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
