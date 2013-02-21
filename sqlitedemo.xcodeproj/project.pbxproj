@@ -10,8 +10,6 @@
 		CAA1155416D5E92800615973 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA1155216D5E92800615973 /* myViewController.m */; };
 		CAA1155516D5E92800615973 /* myViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA1155316D5E92800615973 /* myViewController.xib */; };
 		CAA1155816D5FE1F00615973 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA1155716D5FE1F00615973 /* sun.png */; };
-		CAA1156016D6029D00615973 /* sdfasdfaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA1155E16D6029D00615973 /* sdfasdfaViewController.m */; };
-		CAA1156116D6029D00615973 /* sdfasdfaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA1155F16D6029D00615973 /* sdfasdfaViewController.xib */; };
 		CF80555B1665B00600EEF30B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80555A1665B00600EEF30B /* UIKit.framework */; };
 		CF80555D1665B00600EEF30B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80555C1665B00600EEF30B /* Foundation.framework */; };
 		CF80555F1665B00600EEF30B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80555E1665B00600EEF30B /* CoreGraphics.framework */; };
@@ -41,9 +39,6 @@
 		CAA1155216D5E92800615973 /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
 		CAA1155316D5E92800615973 /* myViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myViewController.xib; sourceTree = "<group>"; };
 		CAA1155716D5FE1F00615973 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
-		CAA1155D16D6029D00615973 /* sdfasdfaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdfasdfaViewController.h; sourceTree = "<group>"; };
-		CAA1155E16D6029D00615973 /* sdfasdfaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdfasdfaViewController.m; sourceTree = "<group>"; };
-		CAA1155F16D6029D00615973 /* sdfasdfaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sdfasdfaViewController.xib; sourceTree = "<group>"; };
 		CF8055561665B00600EEF30B /* sqlitedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlitedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF80555A1665B00600EEF30B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF80555C1665B00600EEF30B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,9 +88,6 @@
 		CF80554B1665B00600EEF30B = {
 			isa = PBXGroup;
 			children = (
-				CAA1155D16D6029D00615973 /* sdfasdfaViewController.h */,
-				CAA1155E16D6029D00615973 /* sdfasdfaViewController.m */,
-				CAA1155F16D6029D00615973 /* sdfasdfaViewController.xib */,
 				CAA1155116D5E92800615973 /* myViewController.h */,
 				CAA1155216D5E92800615973 /* myViewController.m */,
 				CAA1155716D5FE1F00615973 /* sun.png */,
@@ -229,7 +221,6 @@
 				CFB772441665D29900965E55 /* whiteArrow@2x.png in Resources */,
 				CAA1155516D5E92800615973 /* myViewController.xib in Resources */,
 				CAA1155816D5FE1F00615973 /* sun.png in Resources */,
-				CAA1156116D6029D00615973 /* sdfasdfaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +236,6 @@
 				CF8055771665B00600EEF30B /* ViewController.m in Sources */,
 				CFB772471665D2F800965E55 /* EGORefreshTableHeaderView.m in Sources */,
 				CAA1155416D5E92800615973 /* myViewController.m in Sources */,
-				CAA1156016D6029D00615973 /* sdfasdfaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

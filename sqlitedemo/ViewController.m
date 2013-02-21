@@ -64,12 +64,8 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     //	[tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     myViewController * my=[[myViewController alloc]initWithNibName:@"myViewController" bundle:nil];
-    
-    
     my.image=[self getImage];
     [self presentModalViewController:my animated:YES];
-    
-    
     
 }
 -(UIImage*)getImage{
@@ -103,8 +99,6 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSData *image=UIImagePNGRepresentation([UIImage imageNamed:@"sun.png"]);
     NSString *aaa=[[NSString alloc]initWithFormat:@"update student set studentImage=? where studentId=1″"];
     
-    
-    
     if (sqlite3_open([filename UTF8String], &db) == SQLITE_OK){
         sqlite3_stmt * compliedStatement;
         sqlite3_prepare(db,[aaa UTF8String],-1,&compliedStatement,0);
@@ -124,14 +118,12 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 {
     NSMutableArray *list = [[NSMutableArray alloc] initWithObjects:nil];;
 	NSString *filename = [self dataFilePath];
-	NSLog(@"%@",filename);
 	if (sqlite3_open([filename UTF8String], &db) != SQLITE_OK) {
 		sqlite3_close(db);
 		NSAssert(NO,@"数据库打开失败。");
 	} else {
 		
 		NSString *qsql = [NSString stringWithFormat: @"SELECT %@ FROM %@", FIELDS_NAME_SID, TABLE_NAME];
-		NSLog(@"%@",qsql);
 		sqlite3_stmt *statement;
 		//预处理过程
 		if (sqlite3_prepare_v2(db, [qsql UTF8String], -1, &statement, NULL) == SQLITE_OK) {
@@ -146,7 +138,6 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 				//[field1Str release];
                 [list addObject:field1Str];
                 NSLog(@"%d",list.count);
-                
 			}
 		}
 		
@@ -168,7 +159,6 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	} else {
 		
 		NSString *qsql = [NSString stringWithFormat: @"SELECT %@ FROM %@", FIELDS_NAME_SNAME, TABLE_NAME];
-		NSLog(@"%@",qsql);
 		sqlite3_stmt *statement;
 		//预处理过程
 		if (sqlite3_prepare_v2(db, [qsql UTF8String], -1, &statement, NULL) == SQLITE_OK) {
@@ -199,12 +189,8 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [super viewDidLoad];
    // NSArray *array = [[NSArray alloc] initWithObjects:@"今天下午2:00开会",@"今天晚上12:00世界杯",nil];
     
-   // NSMutableArray *array = [self selectAll];
+    // NSMutableArray *array = [self selectAll];
     //NSMutableArray *array1 = [self selectAll1];
-    
-   
-    
-    
     
 	self.listData = [[NSMutableArray alloc]initWithCapacity:0];
     self.listData1 = [[NSMutableArray alloc]initWithCapacity:0];
@@ -263,9 +249,8 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 		
 		sqlite3_stmt *statement;
        
-        NSLog(@"imageData lenth%d",[imgData length]);
 		//预处理过程
-        NSLog(@"  %d",sqlite3_prepare_v2(db, [sqlStr UTF8String], -1, &statement, NULL));
+       
 		if (sqlite3_prepare_v2(db, [sqlStr UTF8String], -1, &statement, NULL) == SQLITE_OK) {
 			//绑定参数开始
 			sqlite3_bind_text(statement, 1, [studentId.text UTF8String], -1, NULL);
